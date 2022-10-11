@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/images/">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src= "main.js" defer></script>
+<title>Coding Temple/Art Gallery API</title>
+</head>
+<body>
+    <img src="css/images/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg" id="left" />
+    <h1 class="p-5">Art Gallery with APIs</h1>
+    <h4>If you click on "Get Art" it will show you all the of the art galleries associated with music and their APIs</h2>
+    <h3>The Most Beautiful Art you ever seen</h3>
+    <br>
+    <br>
+    <br>
+
+    <!--This area is where we will put our html elements-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12">
+                <button class="btn btn-primary" onclick="load_data()">Get Art</button>
+                <button class="btn btn-danger" onclick="clear_data()">Clear Art</button> 
+                <section class="list-group art_list">
+                    
+                        <ul>
+                            <ol>
+                                <a href="PeLike(Storage Jar)">PeLike</a>
+                
+                            </ol>
+                
+                
+                
+                
+                
+                        </ul>
+                    
+
+                </section>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+<!--Start of container for Art of Music page-->
+<div class="container-Music">
+    <div class="row">
+    
+    <div class="gallery"> 
+        <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); 
+        load_data(this.id, title)">
+            <a href="" class="gallery__img" src="https://api.artic.edu/api/v1/artworks/158"
+            >
+        </figure>
+        <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/28067">
+        </figure>
+        <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/204686" >
+            <h3 text-align="center"></h3>
+        </figure>
+        <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src= "https://api.artic.edu/api/v1/artworks/24306" >
+            <h3 text-align="center"></h3>
+        </figure>
+        <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <a href="" class="gallery__img" src="https://api.artic.edu/api/v1/artworks/512"  >
+        </figure>
+        <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/49225" >
+        </figure>
+        <figure class="gallery__item gallery__item--7" id="fig7" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/16398">
+        </figure>
+        <figure class="gallery__item gallery__item--8" id="fig8" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/184372" >
+        </figure>
+        <figure class="gallery__item gallery__item--9" id="fig9" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/84076" >
+            <figure class="gallery__item gallery__item--9" id="fig9" onclick="event.stopPropagation(); 
+        load_data(this.id, event)">
+            <img class="gallery__img" src="https://api.artic.edu/api/v1/artworks/204686"  >
+        </figure>
+
+        
+    </div>
+    </div>
+            
+            
+                
+                
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

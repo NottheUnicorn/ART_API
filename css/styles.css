@@ -1,0 +1,37 @@
+* body {
+    background-color: rgb(53, 53, 137);
+}
+
+* .flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+    color:blueviolet;
+}
+
+h1 {
+    text-align: center;
+    color: salmon;
+}
+
+div.container {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    position: flex;
+    width: 23%;
+}
+
+div.flex-container.abstract {
+    position: absolute;
+    width: 2%;
+    justify-content: center;
+}
